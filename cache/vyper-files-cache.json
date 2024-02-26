@@ -1,0 +1,17 @@
+{
+  "_format": "hh-vy-cache-1",
+  "files": {
+    "/home/kremer/Documents/solidityTesting/contracts/TestVy.vy": {
+      "lastModificationDate": 1707662313924,
+      "contentHash": "efae9660e0253831a5534d366089f195",
+      "sourceName": "contracts/TestVy.vy",
+      "vyperConfig": {
+        "version": "0.3.7"
+      },
+      "versionPragma": "^0.3.7",
+      "artifacts": [
+        "TestVy"
+      ]
+    }
+  }
+}
