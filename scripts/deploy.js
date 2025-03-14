@@ -5,7 +5,7 @@ async function main() {
   const usdt = await ethers.getContractFactory("MyToken");
   const usdc_contract = await usdc.deploy(owner, "USDC", "USDC");
   const usdt_contract = await usdt.deploy(owner, "USDT", "USDT");
-  const amm_contract = await amm.deploy(usdc_contract.target, usdt_contract.target);
+  const amm_contract = await amm.deploy(usdt_contract.target, usdc_contract.target);
   // await amm_contract.deployed();
   // await usdc_contract.deployed();
   // await usdt_contract.deployed();

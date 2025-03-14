@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 import "hardhat/console.sol";
 import { UD60x18, ud } from "@prb/math/src/UD60x18.sol";
-
+ 
 contract AMM { 
     // using PRBMath for uint256;
     // using UD60x18 for uint256;
@@ -29,8 +29,6 @@ contract AMM {
     }
 
     function _update(uint _reserve0, uint _reserve1) private {
-        console.log("update hit");
-        console.log(_reserve0);
         reserve0 = _reserve0;
         reserve1 = _reserve1;
     }
@@ -81,9 +79,11 @@ contract AMM {
         
     }
 
-    function testFunction() external returns (uint test) {
-        return 1;
-    }
+    // function testFunction() external {
+    //     kjhjj
+    // } 
+
+ 
 
     function addLiquidity(uint _amount0, uint _amount1) external returns (uint shares) {
         token0.transferFrom(msg.sender, address(this), _amount0);
@@ -108,10 +108,11 @@ contract AMM {
             uint256 converted_reserve0 = ud_reserve0.intoUint256();
             uint256 converted_reserve1 = ud_reserve1.intoUint256();
             
-            shares = updateShares(_amount0, _amount1, converted_reserve0, converted_reserve1);
+            // shares = updateShares(_amount0, _amount1, converted_reserve0, converted_reserve1);
+            shares = updateShares(_amount0, _amount1, reserve0, reserve1);
+
         }
-        console.log(shares);
-        require(shares > 0, "shares = 0");
+        // require(shares > 0, "shares = 0");
         _mint(msg.sender, shares);
         _update(token0.balanceOf(address(this)), token1.balanceOf(address(this)));
     }
@@ -166,4 +167,4 @@ interface IERC20 {
 
     event Transfer(address indexed from, address indexed to, uint amount);
     event Approval(address indexed owner, address indexed spender, uint amount);
-}
+} 

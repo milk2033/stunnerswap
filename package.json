@@ -13,12 +13,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@metamask/sdk-react": "^0.15.0",
+    "@metamask/sdk-react-ui": "^0.15.0",
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "@openzeppelin/contracts": "^5.0.1",
     "@prb/math": "^4.0.2",
     "abdk-libraries-solidity": "^3.2.0",
     "bignumber.js": "^9.1.2",
-    "ethers": "^6.10.0",
+    "ethers": "^6.11.1",
     "hardhat": "^2.19.5",
     "prb-math": "^2.4.3",
     "web3": "^4.4.0"

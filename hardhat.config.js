@@ -15,5 +15,10 @@ module.exports = {
       url: "http://localhost:7545",
       chainId: 1337, 
     }, 
+    sepolia: {
+      url: `https://eth-sepolia.g.alchemy.com/v2/k1nf0oOfrryTLAt7fKP2NUENWS98YNH0`, 
+      accounts: ['5babb7f0a76a04e1afc6ca84c40de75095d294bc81219ed6886324e25e3da852']
+    }
   },
-};
+}; 
+  
