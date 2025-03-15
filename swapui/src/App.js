@@ -152,21 +152,22 @@ function App() {
 
   return (
     <section className="main-section">
-      {/* <div style={{position: 'absolute', height: '100vh'}}>
+      <div style={{ position: "fixed", height: "100vh" }}>
         {whatVisible && (
-       
-          <p style={{
-            position: 'absolute', 
-            top: randomPosition.top, 
-            left: randomPosition.left,
-            zIndex: '99',
-            fontSize: '75px',
-            color: 'black'
-
-          }}>WHAT?</p> 
-        
+          <p
+            style={{
+              position: "absolute",
+              top: randomPosition.top,
+              left: randomPosition.left,
+              zIndex: "9999",
+              fontSize: "75px",
+              color: "black",
+            }}
+          >
+            WHAT?
+          </p>
         )}
-      </div> */}
+      </div>
 
       <Navbar
         setShowLiquidityPage={setShowLiquidityPage}
