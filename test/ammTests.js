@@ -66,7 +66,7 @@ describe("AMM", function () {
     //     const mintUSDT = await usdt.mint(address2.address, xx.toString())
     //     const converted_usdc = Web3.utils.toWei(100, 'wei')
     //     const converted_usdt = Web3.utils.toWei(200, 'wei')
-    //     const BNusdc = new BigNumber(converted_usdc)
+    //     const BNusdc = new BigNumber(converted_usdc) 
     //     const BNusdt = new BigNumber(converted_usdt)
 
     //     console.log(usdc.target, 'usdc address')

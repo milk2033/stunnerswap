@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/kremer/Documents/solidityTesting/contracts/AMM.sol": {
-      "lastModificationDate": 1709355590858,
-      "contentHash": "d8da9b7a2144f37f51d63f75a097f8a9",
+    "/home/milk/Documents/stunnerswap/contracts/AMM.sol": {
+      "lastModificationDate": 1741986157514,
+      "contentHash": "087c23810e2779d7d087d0dc6d3d8e5d",
       "sourceName": "contracts/AMM.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -41,459 +41,8 @@
         "IERC20"
       ]
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1706860655391,
-      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
-      "sourceName": "hardhat/console.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.4.22 <0.9.0"
-      ],
-      "artifacts": [
-        "console"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/contracts/Token.sol": {
-      "lastModificationDate": 1707245606549,
-      "contentHash": "efbc9feefd904512ebd77dbade61f6b1",
-      "sourceName": "contracts/Token.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol",
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "0.8.20"
-      ],
-      "artifacts": [
-        "MyToken"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1706864738991,
-      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1706864738979,
-      "contentHash": "c6375ef25e84c90b3d15f9ec4eef218f",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC20.sol",
-        "./extensions/IERC20Metadata.sol",
-        "../../utils/Context.sol",
-        "../../interfaces/draft-IERC6093.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "ERC20"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1706864738979,
-      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
-      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Context"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1706864738987,
-      "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
-      "lastModificationDate": 1706864738979,
-      "contentHash": "4aefc698f77ecbace7f401257dfe182d",
-      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC1155Errors",
-        "IERC20Errors",
-        "IERC721Errors"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1706864738987,
-      "contentHash": "4c02fa6f7ae7b6c289cef80424f0c875",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../IERC20.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "IERC20Metadata"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/contracts/Faucet.sol": {
-      "lastModificationDate": 1706865229435,
-      "contentHash": "eb05f084b45738953aedf76d37b31b4b",
-      "sourceName": "contracts/Faucet.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol"
-      ],
-      "versionPragmas": [
-        "0.8.20"
-      ],
-      "artifacts": [
-        "Faucet"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/abdk-libraries-solidity/ABDKMath64x64.sol": {
-      "lastModificationDate": 1707603877569,
-      "contentHash": "18553fed418e0bd7841bc4fa99522ded",
-      "sourceName": "abdk-libraries-solidity/ABDKMath64x64.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ABDKMath64x64"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/prb-math/contracts/PRBMathSD59x18.sol": {
-      "lastModificationDate": 1707607415992,
-      "contentHash": "e44d828374ae472ddd0aa35d1a436f16",
-      "sourceName": "prb-math/contracts/PRBMathSD59x18.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./PRBMath.sol"
-      ],
-      "versionPragmas": [
-        ">=0.8.4"
-      ],
-      "artifacts": [
-        "PRBMathSD59x18"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/prb-math/contracts/PRBMath.sol": {
-      "lastModificationDate": 1707607415992,
-      "contentHash": "e5a2346290b1f420ef28ce51340cf55e",
-      "sourceName": "prb-math/contracts/PRBMath.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.4"
-      ],
-      "artifacts": [
-        "PRBMath"
-      ]
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/UD60x18.sol": {
-      "lastModificationDate": 1707609965344,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/UD60x18.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "55aeee8a1cf7cf9fd8a0176bd06b739f",
       "sourceName": "@prb/math/src/UD60x18.sol",
       "solcConfig": {
@@ -534,8 +83,44 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud60x18/Casting.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1741986159828,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud60x18/Casting.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "210f9ed8d979a7449cdb5b7adb003808",
       "sourceName": "@prb/math/src/ud60x18/Casting.sol",
       "solcConfig": {
@@ -578,8 +163,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud60x18/Constants.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud60x18/Constants.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "282d93a05c3ed412d5a3b74a4ad05d6d",
       "sourceName": "@prb/math/src/ud60x18/Constants.sol",
       "solcConfig": {
@@ -614,8 +199,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud60x18/Conversions.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud60x18/Conversions.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "7d6126ed4b68e5c939cf0af5cd237b66",
       "sourceName": "@prb/math/src/ud60x18/Conversions.sol",
       "solcConfig": {
@@ -652,8 +237,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud60x18/Errors.sol": {
-      "lastModificationDate": 1707609965340,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud60x18/Errors.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "63cbb9480bb14e0824736d5c109aa7ce",
       "sourceName": "@prb/math/src/ud60x18/Errors.sol",
       "solcConfig": {
@@ -688,8 +273,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud60x18/Helpers.sol": {
-      "lastModificationDate": 1707609965340,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud60x18/Helpers.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "f17f113af284236759bc9217ed544728",
       "sourceName": "@prb/math/src/ud60x18/Helpers.sol",
       "solcConfig": {
@@ -725,8 +310,46 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud60x18/Math.sol": {
-      "lastModificationDate": 1707609965340,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud60x18/ValueType.sol": {
+      "lastModificationDate": 1741986158750,
+      "contentHash": "2cdd6d9529412185283eb7d955e95cbe",
+      "sourceName": "@prb/math/src/ud60x18/ValueType.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Casting.sol",
+        "./Helpers.sol",
+        "./Math.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.19"
+      ],
+      "artifacts": []
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud60x18/Math.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "ac1aaa7063ffc63fcfa85e75d8a22268",
       "sourceName": "@prb/math/src/ud60x18/Math.sol",
       "solcConfig": {
@@ -765,46 +388,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud60x18/ValueType.sol": {
-      "lastModificationDate": 1707609965344,
-      "contentHash": "2cdd6d9529412185283eb7d955e95cbe",
-      "sourceName": "@prb/math/src/ud60x18/ValueType.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./Casting.sol",
-        "./Helpers.sol",
-        "./Math.sol"
-      ],
-      "versionPragmas": [
-        ">=0.8.19"
-      ],
-      "artifacts": []
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/Common.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/Common.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "89563f873c1358d97cab6d0f7aae4c07",
       "sourceName": "@prb/math/src/Common.sol",
       "solcConfig": {
@@ -837,8 +422,44 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd1x18/Constants.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud2x18/ValueType.sol": {
+      "lastModificationDate": 1741986158750,
+      "contentHash": "4bf392abdd32a2c1d83ad65c640ac7bd",
+      "sourceName": "@prb/math/src/ud2x18/ValueType.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Casting.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.19"
+      ],
+      "artifacts": []
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd1x18/Constants.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "3a00d7986d0f1f5fd47ac9f2dc1475ce",
       "sourceName": "@prb/math/src/sd1x18/Constants.sol",
       "solcConfig": {
@@ -873,8 +494,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd1x18/ValueType.sol": {
-      "lastModificationDate": 1707609965344,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd1x18/ValueType.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "f0d7fec0238b9623cd5432462fba5c7f",
       "sourceName": "@prb/math/src/sd1x18/ValueType.sol",
       "solcConfig": {
@@ -909,44 +530,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd59x18/Constants.sol": {
-      "lastModificationDate": 1707609965336,
-      "contentHash": "7fc7d96c638cf5317dbba7ae8c07300d",
-      "sourceName": "@prb/math/src/sd59x18/Constants.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./ValueType.sol"
-      ],
-      "versionPragmas": [
-        ">=0.8.19"
-      ],
-      "artifacts": []
-    },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd59x18/ValueType.sol": {
-      "lastModificationDate": 1707609965344,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd59x18/ValueType.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "a8cbdd366dbe50e8199a8d59109c94ab",
       "sourceName": "@prb/math/src/sd59x18/ValueType.sol",
       "solcConfig": {
@@ -983,8 +568,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud2x18/Constants.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud2x18/Constants.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "93bafe3a5bfec3c48c72e3b6dff0b5ac",
       "sourceName": "@prb/math/src/ud2x18/Constants.sol",
       "solcConfig": {
@@ -1019,10 +604,10 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud2x18/ValueType.sol": {
-      "lastModificationDate": 1707609965344,
-      "contentHash": "4bf392abdd32a2c1d83ad65c640ac7bd",
-      "sourceName": "@prb/math/src/ud2x18/ValueType.sol",
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd59x18/Constants.sol": {
+      "lastModificationDate": 1741986158749,
+      "contentHash": "7fc7d96c638cf5317dbba7ae8c07300d",
+      "sourceName": "@prb/math/src/sd59x18/Constants.sol",
       "solcConfig": {
         "version": "0.8.20",
         "settings": {
@@ -1048,15 +633,93 @@
         }
       },
       "imports": [
-        "./Casting.sol"
+        "./ValueType.sol"
       ],
       "versionPragmas": [
         ">=0.8.19"
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd1x18/Casting.sol": {
-      "lastModificationDate": 1707609965332,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud2x18/Casting.sol": {
+      "lastModificationDate": 1741986158750,
+      "contentHash": "22e4db923ea947ce6eaf2a2dc7e471a2",
+      "sourceName": "@prb/math/src/ud2x18/Casting.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Common.sol",
+        "./Errors.sol",
+        "../sd1x18/Constants.sol",
+        "../sd1x18/ValueType.sol",
+        "../sd59x18/ValueType.sol",
+        "../ud60x18/ValueType.sol",
+        "./ValueType.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.19"
+      ],
+      "artifacts": []
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/ud2x18/Errors.sol": {
+      "lastModificationDate": 1741986158750,
+      "contentHash": "b114bc752027098a098fe200d9600fa4",
+      "sourceName": "@prb/math/src/ud2x18/Errors.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ValueType.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.19"
+      ],
+      "artifacts": []
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd1x18/Casting.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "fdf620cd0842991c797eef17265b5138",
       "sourceName": "@prb/math/src/sd1x18/Casting.sol",
       "solcConfig": {
@@ -1096,8 +759,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd1x18/Errors.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd1x18/Errors.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "01ce16eb254b596aa49047e21d548541",
       "sourceName": "@prb/math/src/sd1x18/Errors.sol",
       "solcConfig": {
@@ -1132,8 +795,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd59x18/Casting.sol": {
-      "lastModificationDate": 1707609965336,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd59x18/Casting.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "cad7d3fe4dba2c04d2c7c481e6e0e210",
       "sourceName": "@prb/math/src/sd59x18/Casting.sol",
       "solcConfig": {
@@ -1175,8 +838,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd59x18/Helpers.sol": {
-      "lastModificationDate": 1707609965340,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd59x18/Helpers.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "7d1863a86f1dd22889ee2c28737b3456",
       "sourceName": "@prb/math/src/sd59x18/Helpers.sol",
       "solcConfig": {
@@ -1212,8 +875,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd59x18/Math.sol": {
-      "lastModificationDate": 1707609965340,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd59x18/Math.sol": {
+      "lastModificationDate": 1741986158750,
       "contentHash": "9ba39059764f9bac4b29f829c0dec4db",
       "sourceName": "@prb/math/src/sd59x18/Math.sol",
       "solcConfig": {
@@ -1252,8 +915,8 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/sd59x18/Errors.sol": {
-      "lastModificationDate": 1707609965340,
+    "/home/milk/Documents/stunnerswap/node_modules/@prb/math/src/sd59x18/Errors.sol": {
+      "lastModificationDate": 1741986158749,
       "contentHash": "a420176814db8561486f5faa6c9a621d",
       "sourceName": "@prb/math/src/sd59x18/Errors.sol",
       "solcConfig": {
@@ -1288,10 +951,10 @@
       ],
       "artifacts": []
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud2x18/Casting.sol": {
-      "lastModificationDate": 1707609965336,
-      "contentHash": "22e4db923ea947ce6eaf2a2dc7e471a2",
-      "sourceName": "@prb/math/src/ud2x18/Casting.sol",
+    "/home/milk/Documents/stunnerswap/contracts/Token.sol": {
+      "lastModificationDate": 1741986157514,
+      "contentHash": "c3e95999463728008df2860ab5e64545",
+      "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.20",
         "settings": {
@@ -1317,23 +980,21 @@
         }
       },
       "imports": [
-        "../Common.sol",
-        "./Errors.sol",
-        "../sd1x18/Constants.sol",
-        "../sd1x18/ValueType.sol",
-        "../sd59x18/ValueType.sol",
-        "../ud60x18/ValueType.sol",
-        "./ValueType.sol"
+        "hardhat/console.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
-        ">=0.8.19"
+        "0.8.20"
       ],
-      "artifacts": []
+      "artifacts": [
+        "MyToken"
+      ]
     },
-    "/home/kremer/Documents/solidityTesting/node_modules/@prb/math/src/ud2x18/Errors.sol": {
-      "lastModificationDate": 1707609965340,
-      "contentHash": "b114bc752027098a098fe200d9600fa4",
-      "sourceName": "@prb/math/src/ud2x18/Errors.sol",
+    "/home/milk/Documents/stunnerswap/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1741986158739,
+      "contentHash": "c6375ef25e84c90b3d15f9ec4eef218f",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
         "version": "0.8.20",
         "settings": {
@@ -1359,12 +1020,241 @@
         }
       },
       "imports": [
-        "./ValueType.sol"
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol",
+        "../../interfaces/draft-IERC6093.sol"
       ],
       "versionPragmas": [
-        ">=0.8.19"
+        "^0.8.20"
       ],
-      "artifacts": []
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1741986158733,
+      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1741986158740,
+      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
+      "lastModificationDate": 1741986158738,
+      "contentHash": "4aefc698f77ecbace7f401257dfe182d",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC1155Errors",
+        "IERC20Errors",
+        "IERC721Errors"
+      ]
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1741986158739,
+      "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/milk/Documents/stunnerswap/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1741986158739,
+      "contentHash": "4c02fa6f7ae7b6c289cef80424f0c875",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/home/milk/Documents/stunnerswap/contracts/Faucet.sol": {
+      "lastModificationDate": 1741986157514,
+      "contentHash": "eb05f084b45738953aedf76d37b31b4b",
+      "sourceName": "contracts/Faucet.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": [
+        "Faucet"
+      ]
     }
   }
 }

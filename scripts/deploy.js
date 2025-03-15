@@ -1,17 +1,20 @@
 async function main() {
-  const owner = '0x83a0edD427EDC8D06c030c0fe8b1b88eb1Ee66b7'
-  const amm = await ethers.getContractFactory("AMM");
+  owner = "0x10f84136a1aD797ebCC1929125eb9CCe3A63a43F";
   const usdc = await ethers.getContractFactory("MyToken");
   const usdt = await ethers.getContractFactory("MyToken");
+  const amm = await ethers.getContractFactory("AMM");
+
+  console.log("deploying contracts");
   const usdc_contract = await usdc.deploy(owner, "USDC", "USDC");
-  const usdt_contract = await usdt.deploy(owner, "USDT", "USDT");
-  const amm_contract = await amm.deploy(usdt_contract.target, usdc_contract.target);
-  // await amm_contract.deployed();
-  // await usdc_contract.deployed();
-  // await usdt_contract.deployed();
-  console.log("amm deployed to:", amm_contract.target);
-  console.log("usdc deployed to:", usdc_contract.target);
-  console.log("usdt deployed to:", usdt_contract.target);
+  const usdt_contract = await usdc.deploy(owner, "USDT", "USDT");
+  const amm_contract = await amm.deploy(
+    usdt_contract.target,
+    usdc_contract.target
+  );
+
+  console.log("usdc deployed to...", usdc_contract.target);
+  console.log("usdt deployed to...", usdt_contract.target);
+  console.log("amm deployed to...", amm_contract.target);
 }
 
 main()
